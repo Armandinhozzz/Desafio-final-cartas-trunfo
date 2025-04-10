@@ -147,7 +147,7 @@ int main() {
     }else{
         printf("Resultado: Carta 2 (%s) venceu!\n\n", cidade2);
     }
-
+    
     //Comparacao de cartas com menu interativo
     printf("Escolha um atributo a ser comparado: \n");
     printf("1. Populacao\n");
@@ -161,82 +161,93 @@ int main() {
 
     switch (escolhaJogador){
         case 1:
-        printf("## Comparacao de valores selecionada: Populacao ##\n");
-        printf("%s e %s\n", cidade1, cidade2);
-        printf("Atributo selecionado: Populacao\n");
-        printf("Populacao de Sao Paulo: %d e Populacao do Rio de Janeiro: %d\n", populacao1, populacao2);
-        if (populacao1 > populacao2){
-            printf("Carta 1 venceu!\n");
-        } else if (populacao1 < populacao2){
-            printf("Carta 2 venceu!\n");
-        } else {
-            printf("Houve um empate!\n");
-        }
-
+            printf("## Comparacao de valores selecionada: Populacao ##\n");
+            printf("%s e %s\n", cidade1, cidade2);
+            printf("Atributo selecionado: Populacao\n");
+            printf("Populacao de Sao Paulo: %d e Populacao do Rio de Janeiro: %d\n", populacao1, populacao2);
+            if (populacao1 > populacao2){
+                printf("Carta 1 venceu!\n");
+            } else if (populacao1 < populacao2){
+                printf("Carta 2 venceu!\n");
+            } else {
+                printf("Houve um empate!\n");
+            }
+            break;
+    
         case 2:
-        printf("## Comparacao de valores selecionada: Numero de Pontos Turisticos ##\n");
-        printf("%s e %s\n", cidade1, cidade2);
-        printf("Atributo selecionado: Numero de Pontos Turisticos\n");
-        printf("Pontos Turisticos de Sao Paulo: %d e Pontos Turisticos do Rio de Janeiro: %d\n", turisticos1, turisticos2);
-        if (turisticos1 > turisticos2){
-            printf("Carta 1 venceu!\n");
-        } else if (turisticos1 < turisticos2){
-            printf("Carta 2 venceu!\n");
-        } else {
-            printf("Houve um empate!\n");
-        }
-
+            printf("## Comparacao de valores selecionada: Numero de Pontos Turisticos ##\n");
+            printf("%s e %s\n", cidade1, cidade2);
+            printf("Atributo selecionado: Numero de Pontos Turisticos\n");
+            printf("Pontos Turisticos de Sao Paulo: %d e Pontos Turisticos do Rio de Janeiro: %d\n", turisticos1, turisticos2);
+            if (turisticos1 > turisticos2){
+                printf("Carta 1 venceu!\n");
+            } else if (turisticos1 < turisticos2){
+                printf("Carta 2 venceu!\n");
+            } else {
+                printf("Houve um empate!\n");
+            }
+            break;
+    
         case 3:
-        printf("## Comparacao de valores selecionada: Area ##\n");
-        printf("%s e %s\n", cidade1, cidade2);
-        printf("Atributo selecionado: Area\n");
-        printf("Area de Sao Paulo: %.2f e Area do Rio de Janeiro: %.2f\n", area1, area2);
-        if (area1 > area2){
-            printf("Carta 1 venceu!\n");
-        } else if (area1 < area2){
-            printf("Carta 2 venceu!\n");
-        } else {
-            printf("Houve um empate!\n");
-        }
-
+            printf("## Comparacao de valores selecionada: Area ##\n");
+            printf("%s e %s\n", cidade1, cidade2);
+            printf("Atributo selecionado: Area\n");
+            printf("Area de Sao Paulo: %.2f e Area do Rio de Janeiro: %.2f\n", area1, area2);
+            if (area1 > area2){
+                printf("Carta 1 venceu!\n");
+            } else if (area1 < area2){
+                printf("Carta 2 venceu!\n");
+            } else {
+                printf("Houve um empate!\n");
+            }
+            break;
+    
         case 4:
-        printf("## Comparacao de valores selecionada: PIB ##\n");
-        printf("%s e %s\n", cidade1, cidade2);
-        printf("Atributo selecionado: PIB Turisticos\n");
-        printf("PIB de Sao Paulo: %.2f e PIB do Rio de Janeiro: %.2f\n", pib1, pib2);
-        if (pib1 > pib2){
-            printf("Carta 1 venceu!\n");
-        } else if (pib1 < pib2){
-            printf("Carta 2 venceu!\n");
-        } else {
-            printf("Houve um empate!\n");
-        }
-
+            printf("## Comparacao de valores selecionada: PIB ##\n");
+            printf("%s e %s\n", cidade1, cidade2);
+            printf("Atributo selecionado: PIB\n");
+            printf("PIB de Sao Paulo: %.2f e PIB do Rio de Janeiro: %.2f\n", pib1, pib2);
+            if (pib1 > pib2){
+                printf("Carta 1 venceu!\n");
+            } else if (pib1 < pib2){
+                printf("Carta 2 venceu!\n");
+            } else {
+                printf("Houve um empate!\n");
+            }
+            break;
+    
         case 5:
-        printf("## Comparacao de valores selecionada: Densidade Populacional ##\n");
-        printf("%s e %s\n", cidade1, cidade2);
-        printf("Atributo selecionado: Densidade Populacional\n");
-        printf("Densidade Populacional de Sao Paulo: %d e Densidade Populacional do Rio de Janeiro: %d\n", densidadePopulacional1, densidadePopulacional2);
-        if (densidadePopulacional1 < densidadePopulacional2){
-            printf("Carta 1 venceu!\n");
-        } else if (densidadePopulacional1 > densidadePopulacional2){
-            printf("Carta 2 venceu!\n");
-        } else {
-            printf("Houve um empate!\n");
-        }
-
+            printf("## Comparacao de valores selecionada: Densidade Populacional ##\n");
+            printf("%s e %s\n", cidade1, cidade2);
+            printf("Atributo selecionado: Densidade Populacional\n");
+            printf("Densidade Populacional de Sao Paulo: %d e Densidade Populacional do Rio de Janeiro: %d\n", densidadePopulacional1, densidadePopulacional2);
+            if (densidadePopulacional1 < densidadePopulacional2){
+                printf("Carta 1 venceu!\n");
+            } else if (densidadePopulacional1 > densidadePopulacional2){
+                printf("Carta 2 venceu!\n");
+            } else {
+                printf("Houve um empate!\n");
+            }
+            break;
+    
         case 6:
-        printf("## Comparacao de valores selecionada: PIB per Capita ##\n");
-        printf("%s e %s\n", cidade1, cidade2);
-        printf("Atributo selecionado: PIB per Capita\n");
-        printf("Pib per Capita de Sao Paulo: %d e Pib per Capita do Rio de Janeiro: %d\n", pibpc1, pibpc2);
-        if (pibpc1 > pibpc2){
-            printf("Carta 1 venceu!\n");
-        } else if (pibpc1 < pibpc2){
-            printf("Carta 2 venceu!\n");
-        } else {
-            printf("Houve um empate!\n");
-        }
+            printf("## Comparacao de valores selecionada: PIB per Capita ##\n");
+            printf("%s e %s\n", cidade1, cidade2);
+            printf("Atributo selecionado: PIB per Capita\n");
+            printf("Pib per Capita de Sao Paulo: %d e Pib per Capita do Rio de Janeiro: %d\n", pibpc1, pibpc2);
+            if (pibpc1 > pibpc2){
+                printf("Carta 1 venceu!\n");
+            } else if (pibpc1 < pibpc2){
+                printf("Carta 2 venceu!\n");
+            } else {
+                printf("Houve um empate!\n");
+            }
+            break;
+    
+        default:
+            printf("Opcao invalida!\n");
+            break;
     }
+
     return 0;
 } 
