@@ -81,7 +81,7 @@ int main() {
     printf("PIB: Carta 1 venceu (%d)\n", resultadoPib);
     printf("Densidade Populacional: Carta 2 venceu (%d)\n", resultadoDensidade);
     printf("Pib per Capita: Carta 1 venceu (%d)\n", resultadoPibpc);
-    printf("Super Poder: Carta 1 venceu (%d)\n\n", resultadoSuperPoder);
+    printf("Super Poder: Carta 1 venceu (%d)\n", resultadoSuperPoder);
 
     //Comparação de Cartas por Atributo
     printf("Comparacao de cartas (Atributo: Populacao):\n");
